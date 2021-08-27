@@ -1,3 +1,14 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'http://leer.gelovenleren.net/'
+languageCode = 'nl-nl'
+title = 'De Leer van de Kerk'
+theme = 'hugo-book'
+
+[menu]
+  # [before] []
+[[menu.after]]
+  name = "Geloven Leren"
+  url = "https://gelovenleren.net"
+  weight = 10
+
+[params]
+  BookSearch = true
